@@ -27,3 +27,7 @@ config/secrets.yml.key
 
 # Ignore Spring files.
 /spring/*.pid
+
+# file upload file
+/public/uploads
+
