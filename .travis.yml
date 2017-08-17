@@ -1,5 +1,7 @@
 language: ruby
 
-before_script: bin/rails db:setup
+before_script:
+  - cp config/database.travis.yml config/database.yml
+  - bin/rails db:setup
 
 script: bin/rails test
