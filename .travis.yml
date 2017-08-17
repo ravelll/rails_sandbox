@@ -1,1 +1,5 @@
 language: ruby
+
+before_script: bin/rails db:setup
+
+script: bin/rails test
