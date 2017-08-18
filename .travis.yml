@@ -1,8 +1,9 @@
 language: ruby
 
+cache: bundler
+
 before_script:
   - cp config/database.travis.yml config/database.yml
-  - bin/rails db:create
-  - bin/rails db:migrate RAILS_ENV=test
 
-script: bin/rails test
+script:
+  - bin/rails db:create db:migrate && bin/rails test
