@@ -3,6 +3,6 @@ language: ruby
 before_script:
   - cp config/database.travis.yml config/database.yml
   - bin/rails db:create
-  - bin/rails db:migrate
+  - bin/rails db:migrate RAILS_ENV=test
 
 script: bin/rails test
