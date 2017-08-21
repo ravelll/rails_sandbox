@@ -65,6 +65,8 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
+    doorkeeper (4.2.6)
+      railties (>= 4.2)
     erubi (1.6.1)
     excon (0.58.0)
     execjs (2.7.0)
@@ -379,6 +381,7 @@ DEPENDENCIES
   byebug (~> 9.0)
   carrierwave (~> 1.1)
   coffee-rails (~> 4.2)
+  doorkeeper (~> 4.2)
   faker (~> 1.7)
   fog (~> 1.40)
   guard (~> 2.13)
