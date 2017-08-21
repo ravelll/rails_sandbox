@@ -20,7 +20,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.6'
 
 group :development, :test do
-  gem 'sqlite3', '~> 1.3'
+  gem 'mysql2', '~> 0.4'
   gem 'byebug', '~> 9.0', platform: :mri
 end
 
