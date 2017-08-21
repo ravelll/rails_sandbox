@@ -1,6 +1,12 @@
 language: ruby
 
+services:
+  - mysql
+
 cache: bundler
+
+before_install:
+  - mysql -e 'create database sandbox_test;'
 
 script:
   - bin/rails db:schema:load RAILS_ENV=test
