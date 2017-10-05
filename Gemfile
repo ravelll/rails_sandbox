@@ -18,6 +18,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails', '~> 4.3'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.6'
+gem 'doorkeeper', '~> 4.2'
 
 group :development, :test do
   gem 'mysql2', '~> 0.4'
