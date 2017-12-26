@@ -5,6 +5,9 @@ services:
 
 cache: bundler
 
+notifications:
+ email: false
+
 script:
   - rails db:setup RAILS_ENV=test
   - rails test
