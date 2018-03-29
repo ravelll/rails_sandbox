@@ -21,7 +21,7 @@ gem 'jbuilder'
 gem 'doorkeeper'
 
 group :development, :test do
-  gem 'mysql2'
+  gem 'mysql2', '< 0.5.0'
   gem 'byebug', platform: :mri
 end
 
